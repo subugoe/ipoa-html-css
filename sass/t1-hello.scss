@@ -1,0 +1,18 @@
+.hello {
+  @extend .layout__item;
+}
+
+.logo {
+  @extend .layout__item;
+  @extend .tablet-and-up-one-quarter;
+  // @extend .p\+\+;
+  img {
+    width: 100%;
+  }
+}
+
+.claim {
+  @extend .layout__item;
+  @extend .tablet-and-up-three-quarters;
+  @extend .p\+\+;
+}

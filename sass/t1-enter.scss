@@ -1,0 +1,16 @@
+.enter {
+  background-color: white;
+  @extend .layout__item;
+  ul {
+    @extend .list-bare;
+    @extend .tabs;
+  }
+  li {
+    @extend .tabs__item;
+  }
+  a {
+    @extend .pt-;
+    @extend .pb-;
+    display: block;
+  }
+}

@@ -1,0 +1,9 @@
+name: ipoa-html-css
+exclude: [bower_components, bower.json, npm-debug.log, README.md, grunt, package.json, sass, node_modules]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

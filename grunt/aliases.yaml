@@ -1,0 +1,6 @@
+'initialize':
+  - 'copy:normalize'
+  - 'copy:picturefill'
+  - 'copy:htmlinspector'
+  - 'copy:jquery'
+  - 'copy:jqueryAdditionalFiles'

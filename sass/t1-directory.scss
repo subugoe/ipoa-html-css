@@ -1,0 +1,11 @@
+.linklist {
+  @extend .layout__item;
+  @extend .tablet-one-half;
+  @extend .notebook-and-up-one-quarter;
+  ul {
+    @extend .list-bare;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @extend .m0;
+  }
+}

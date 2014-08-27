@@ -1,0 +1,12 @@
+.stories {
+  h1, h2, h3, h4, h5, h6 {
+    @extend .layout__item;
+    @extend .tablet-portrait-one-whole;
+    @extend .notebook-and-up-one-quarter;
+  }
+  p {
+    @extend .layout__item;
+    @extend .tablet-portrait-one-third;
+    @extend .notebook-and-up-one-quarter;
+  }
+}

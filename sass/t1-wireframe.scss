@@ -1,0 +1,37 @@
+$enable-wireframe: false !default;
+
+
+.wireframe {
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@if ($enable-wireframe == true) {
+  .top-nav .menu,
+  .top-nav .search {
+    @extend .wireframe;
+  }
+  .hello .logo,
+  .hello .claim {
+    @extend .wireframe;
+  }
+
+  .enter ul {
+    @extend .wireframe;
+  }
+
+  .stories section {
+    @extend .wireframe;
+  }
+
+  .overview section {
+    @extend .wireframe;
+  }
+
+  .hidden-footer ul {
+    @extend .wireframe;
+  }
+
+}
