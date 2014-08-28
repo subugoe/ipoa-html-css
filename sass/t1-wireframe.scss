@@ -9,6 +9,7 @@ $enable-wireframe: false !default;
 }
 
 @if ($enable-wireframe == true) {
+
   .top-nav .menu,
   .top-nav .search {
     @extend .wireframe;
